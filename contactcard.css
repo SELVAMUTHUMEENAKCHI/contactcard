@@ -1,0 +1,51 @@
+body {
+    background-color: #fdf6e3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-card {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .contact-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .avatar {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .title {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #fbc02d;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #f9a825;
+  }
+  
